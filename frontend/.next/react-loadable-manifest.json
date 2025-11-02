@@ -1,0 +1,21 @@
+{
+  "fhevm\\internal\\fhevm.ts -> ./mock/fhevmMock": {
+    "id": 7079,
+    "files": [
+      "static/chunks/224.0a396962265ceb55.js",
+      "static/chunks/79.846b0325b8adc8e1.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 5139,
+    "files": [
+      "static/chunks/139.7a5a8e93a21948c1.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 1646,
+    "files": [
+      "static/chunks/646.f342b7cffc01feb0.js"
+    ]
+  }
+}
