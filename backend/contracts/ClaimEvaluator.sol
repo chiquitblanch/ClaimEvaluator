@@ -8,6 +8,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @author ClaimEvaluator
 /// @notice A FHEVM-based contract for processing insurance claims with encrypted data
 /// @dev This contract evaluates insurance claims using fully homomorphic encryption
+/// @custom:security This contract uses FHEVM for privacy-preserving computations
 contract ClaimEvaluator is ZamaEthereumConfig {
     // Risk level constants (encrypted values will be compared against these)
     // Risk levels: 1 = Low, 2 = Medium, 3 = High

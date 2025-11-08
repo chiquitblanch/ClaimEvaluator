@@ -1,5 +1,6 @@
 "use client";
 
+// ClaimEvaluatorDemo component for demonstrating FHEVM-based claim evaluation
 import { useFhevm } from "../fhevm/useFhevm";
 import { useInMemoryStorage } from "../hooks/useInMemoryStorage";
 import { useMetaMaskEthersSigner } from "../hooks/metamask/useMetaMaskEthersSigner";
