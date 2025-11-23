@@ -15,6 +15,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    // Updated relayer SDK to latest version
     "@zama-fhe/relayer-sdk": "^0.3.0-5",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
