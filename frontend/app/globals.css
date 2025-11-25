@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.card-bg {
+  background-color: #1a1a1a;
+  border: 2px solid #2a2a2a;
+}
+
+.card-bg:hover {
+  border-color: #3a3a3a;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.status-success {
+  background-color: #1a4d1a;
+  color: #4ade80;
+  border: 1px solid #4ade80;
+}
+
+.status-error {
+  background-color: #4d1a1a;
+  color: #fbbf24;
+  border: 1px solid #fbbf24;
+}
+
+.status-info {
+  background-color: #1a3a4d;
+  color: #60a5fa;
+  border: 1px solid #60a5fa;
+}
+

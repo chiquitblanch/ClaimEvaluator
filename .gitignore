@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+build/
+dist/
+out/
+
+# Misc
+.DS_Store
+*.pem
+.env*.local
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Next.js
+.next/
+frontend/.next/
+frontend/out/
+
+# Hardhat
+backend/cache/
+backend/artifacts/
+backend/fhevmTemp/
+backend/deployments/
+backend/typechain-types/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ABI files (auto-generated)
+frontend/abi/
+
+# Video files (optional - remove if you want to track them)
+*.mp4
+
