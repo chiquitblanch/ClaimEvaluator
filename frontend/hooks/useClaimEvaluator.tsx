@@ -489,8 +489,9 @@ export const useClaimEvaluator = (parameters: {
           return;
         }
 
-        setClearPayout({ handle: thisPayoutHandle, clear: res[thisPayoutHandle] });
-        setMessage(`Payout amount: ${res[thisPayoutHandle]}`);
+        const resRecord = res as Record<string, string | bigint | boolean>;
+        setClearPayout({ handle: thisPayoutHandle, clear: resRecord[thisPayoutHandle] });
+        setMessage(`Payout amount: ${resRecord[thisPayoutHandle]}`);
       } finally {
         isDecryptingRef.current = false;
         setIsDecrypting(false);
